@@ -12,3 +12,5 @@ logging:
 
 
 
+gitlab:
+  enable: true
