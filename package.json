@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "@openstapps/gitlab-api": "^0.5.1",
-    "@typexs/base": "^0.9.3",
+    "@typexs/base": "^0.9.5",
     "commons-eventbus": "^0.11.2"
   },
   "private": true,
