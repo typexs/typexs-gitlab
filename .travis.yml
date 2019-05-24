@@ -26,12 +26,12 @@ before_script:
 before_install:
   - npm install -g nyc
   - npm install -g codecov
-  - sudo rm /usr/local/bin/docker-compose
-  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
-  - chmod +x docker-compose
-  - sudo mv docker-compose /usr/local/bin
-  - cd docker/testing
-  - docker-compose up &
-  - cd ../..
-  - sleep 60
+  #- sudo rm /usr/local/bin/docker-compose
+  #- curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  #- chmod +x docker-compose
+  #- sudo mv docker-compose /usr/local/bin
+  #- cd docker/testing
+  #- docker-compose up &
+  #- cd ../..
+  #- sleep 60
 
