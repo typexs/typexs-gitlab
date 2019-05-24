@@ -1,16 +1,8 @@
-
 app:
   name: typexs-gitlab
-
-
 
 logging:
   enable: true
   level: debug
   transports:
-  - console: {}
-
-
-
-gitlab:
-  enable: true
+    - console: {}
