@@ -61,8 +61,6 @@ export class GitLabEventDispatcher {
       description += `\n\n/assign @${data.assignee}`;
     }
 
-    Log.info(typeof data.projectId, data.projectId, data.title, description);
-
     // create issue
     const response = await this.api.createIssue(
       data.projectId,
