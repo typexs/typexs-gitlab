@@ -7,9 +7,6 @@
     "test": "nyc mocha --opts test/mocha.all.opts",
     "posttest": "codecov -f coverage/*.json"
   },
-  "bin": {
-    "typexs": "./bin/typexs.sh"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/typexs/typexs-gitlab.git"
