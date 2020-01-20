@@ -64,9 +64,9 @@
     "typescript-require": "^0.2.10"
   },
   "dependencies": {
-    "@openstapps/gitlab-api": "^0.5.1",
-    "@typexs/base": "^0.10.0",
-    "commons-eventbus": "^0.11.2"
+    "@openstapps/gitlab-api": "0.x",
+    "@typexs/base": "0.x",
+    "commons-eventbus": "0.x"
   },
   "private": true,
   "nyc": {
