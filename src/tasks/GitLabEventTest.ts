@@ -3,6 +3,9 @@ import {GitLabIssueEvent} from "../libs/events/GitLabIssueEvent";
 import {EventBus} from "commons-eventbus";
 
 export class GitLabEventTest implements ITask {
+  name = 'gitlab_event_test';
+  description = 'GitLab event test';
+
   @TaskRuntime()
   runtime: ITaskRuntimeContainer;
 
