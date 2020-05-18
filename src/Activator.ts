@@ -1,11 +1,7 @@
-import {Config, IActivator} from "@typexs/base";
-import {EventBus} from "commons-eventbus";
-import {GitLabEventDispatcher} from "./libs/events/GitLabEventDispatcher";
+import {IActivator} from "@typexs/base";
 
 export class Activator implements IActivator {
   async startup() {
-    if (Config.get('gitlab', null) !== null) {
-      await EventBus.register(new GitLabEventDispatcher(Config.get('gitlab')));
-    }
+    // noop
   }
 }
