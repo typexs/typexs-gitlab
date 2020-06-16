@@ -17,7 +17,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@allgemein/packaging": "1.0.6",
+    "@allgemein/packaging": "1.1.0",
     "@types/chai": "4.2.5",
     "@types/chai-as-promised": "7.1.2",
     "@types/chai-spies": "1.0.1",
@@ -58,15 +58,15 @@
     "sqlite3": "4.1.0",
     "std-mocks": "1.0.1",
     "ts-node": "6.2.0",
-    "tslint": "5.20.0",
+    "tslint": "6.1.2",
     "typescript": "3.7.2",
     "typescript-compiler": "1.4.1",
     "typescript-require": "0.2.10"
   },
   "dependencies": {
-    "@openstapps/gitlab-api": "0.7.0",
-    "@typexs/base": "1.x",
-    "commons-eventbus": "0.x"
+    "@openstapps/gitlab-api": "^0.7.0",
+    "@typexs/base": "^0.11.0",
+    "commons-eventbus": "^0.12.2"
   },
   "private": true,
   "nyc": {
