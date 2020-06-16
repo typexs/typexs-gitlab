@@ -1,6 +1,6 @@
 {
   "name": "@typexs/gitlab",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -56,8 +56,8 @@
     "std-mocks": "1.0.1",
     "ts-node": "8.10.2",
     "tslint": "6.1.2",
-      "typescript": "3.5.3",      
-      "commons-eventbus": "0.x",
+    "typescript": "3.5.3",
+    "commons-eventbus": "0.x",
     "typescript-compiler": "1.4.1",
     "typescript-require": "0.2.10"
   },
