@@ -46,7 +46,7 @@
     "gulp-util": "3.0.8",
     "gulp-watch": "5.0.1",
     "merge-stream": "2.0.0",
-    "mocha": "8.0.1",
+    "mocha": "7.2.0",
     "mocha-typescript": "1.1.17",
     "mongodb": "3.5.9",
     "nock": "12.0.3",
