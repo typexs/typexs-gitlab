@@ -49,7 +49,7 @@
     "merge-stream": "2.0.0",
     "mocha": "8.2.0",
     "mocha-typescript": "1.1.17",
-    "mongodb": "3.6.2",
+    "mongodb": "3.6.10",
     "nock": "13.0.4",
     "nyc": "15.1.0",
     "redis": "3.0.2",
